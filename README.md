@@ -3,8 +3,17 @@
 ## Installing
 
 ```bash
-cd fl-exam
+cd semantic-version-sorter
+pip install virtualenv
 virtualenv venv
+# windows
+## cmd
+venv\\Scripts\\activate.bat
+## ps
+set-executionpolicy remotesigned # optional if needed
+.\\venv\\Scripts\\activate.ps1
+pip install -r requirements.txt
+# linux
 venv/bin/pip install -r requirements.txt
 ```
 ## Get All PO's
